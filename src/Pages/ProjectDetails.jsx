@@ -640,7 +640,7 @@ const ProjectDetails = () => {
             id: 78,
             category: ["Blockchain"],
             title: 'Blockchain Development',
-            image: img78,
+            // image: img78,
             subtitle: 'Blockchain'
         },
 
@@ -648,42 +648,42 @@ const ProjectDetails = () => {
             id: 79,
             category: ["Blockchain"],
             title: 'Launchpad Development',
-            image: img79,
+            // image: img79,
             subtitle: 'Blockchain'
         },
         {
             id: 80,
             category: ["Blockchain"],
             title: 'Wallet Development',
-            image: img80,
+            // image: img80,
             subtitle: 'Blockchain'
         },
         {
             id: 81,
             category: ["Blockchain"],
             title: 'Token Development',
-            image: img81,
+            // image: img81,
             subtitle: 'Blockchain'
         },
         {
             id: 82,
             category: ["Blockchain"],
             title: 'Defi Development',
-            image: img82,
+            // image: img82,
             subtitle: 'Blockchain'
         },
         {
             id: 83,
             category: ["Blockchain"],
             title: 'NFT Development',
-            image: img83,
+            // image: img83,
             subtitle: 'Blockchain'
         },
         {
             id: 84,
             category: ["Blockchain"],
             title: 'Dex Development',
-            image: img84,
+            // image: img84,
             subtitle: 'Blockchain'
         },
 
