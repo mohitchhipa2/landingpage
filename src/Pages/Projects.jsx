@@ -16,12 +16,12 @@ import img14 from '../assets/images/projects/reachargeportal.png'
 import img15 from '../assets/images/projects/mlmsoftware.jpg'
 import img16 from "../assets/images/projects/quizsystem.png"
 import img17 from "../assets/images/projects/crmsoftware2.jpg"
-import img18 from "../assets/images/projects/employeetracking2.jpg"
+import img18 from "../assets/images/projects/hrmsoftware2.png"
 import img19 from "../assets/images/projects/hrmssoftware3.jpeg"
 import img20 from "../assets/images/projects/accountingsoft.webp"
 import img21 from "../assets/images/projects/possoftware2.png"
 import img22 from "../assets/images/projects/employeetracking2.jpg"
-import img23 from "../assets/images/projects/employeetracking2.jpg"
+import img23 from "../assets/images/projects/inventorymanagementsystem.jpeg"
 import img24 from "../assets/images/projects/warehousemanagementsystem.jpg"
 import img25 from "../assets/images/projects/University-Management-System.webp"
 import img26 from "../assets/images/projects/lmsapplication.png"
@@ -39,50 +39,51 @@ import img37 from "../assets/images/projects/labmanagement.avif"
 import img38 from "../assets/images/projects/doctorappointment.png"
 import img39 from "../assets/images/projects/pharmacymanagement.jpg"
 import img40 from "../assets/images/prod/MB/acRepairing.png"
-import img41 from "../assets/images/prod/MB/Affilate Managment System.jpg";
-import img42 from "../assets/images/prod/MB/AlgoTradingApp.jpg";
-import img43 from "../assets/images/prod/MB/BusBookingapp.webp";
-import img44 from "../assets/images/prod/MB/CabBooking.jpg";
-import img45 from "../assets/images/prod/MB/CattleManagerSoftware.jpg";
-import img46 from "../assets/images/prod/MB/courierSystem.jpg";
-import img47 from "../assets/images/prod/MB/crowdfunding.jpg";
-import img48 from "../assets/images/prod/MB/CryptoTradingApp.jpg";
-import img49 from "../assets/images/prod/MB/DairyFarmManager.jpg";
-import img50 from "../assets/images/prod/MB/EVchargingapp.png";
-import img51 from "../assets/images/prod/MB/eventManagement.jpg";
-import img52 from "../assets/images/prod/MB/FlightBooking.jpg";
-import img53 from "../assets/images/prod/MB/GarageWorkshopManagementSystem.jpg";
-import img54 from "../assets/images/prod/MB/Groccery.jpg";
-import img55 from "../assets/images/prod/MB/gymManagementSystem.jpg";
-import img56 from "../assets/images/prod/MB/HotelManagement.jpg";
-import img57 from "../assets/images/prod/MB/LivestockManagement.jpg";
-import img58 from "../assets/images/prod/MB/LoanManagement.jpg";
-import img59 from "../assets/images/prod/MB/LodderBooking.jpg";
-import img60 from "../assets/images/prod/MB/Logistic System.jpg";
-import img61 from "../assets/images/prod/MB/Metatrade 4-5 Trading Software.jpg";
-import img62 from "../assets/images/prod/MB/MovieTicketBooking.png";
-import img63 from "../assets/images/prod/MB/NGO Management.jpg";
-import img64 from "../assets/images/prod/MB/PropertyManagementSoftware.png";
-import img65 from "../assets/images/prod/MB/PG management.png";
-import img66 from "../assets/images/prod/MB/PropertyListingSoftware.jpg";
-import img67 from "../assets/images/prod/MB/PropertyManagementSoftware.png";
-import img68 from "../assets/images/prod/MB/RealStateSoftware.jpg";
-import img69 from "../assets/images/prod/MB/RideSharingApp.jpg";
-import img70 from "../assets/images/prod/MB/saloonManagement.png";
-import img71 from "../assets/images/prod/MB/spaManagement.jpg";
-import img72 from "../assets/images/prod/MB/SportManagmentSystem.png";
-import img73 from "../assets/images/prod/MB/TiffinCenter.jpg";
-import img74 from "../assets/images/prod/MB/TradingApp.jpg";
-import img75 from "../assets/images/prod/MB/TravelBookingApp.png";
-import img76 from "../assets/images/prod/MB/VehicleManagement.png";
-import img77 from "../assets/images/prod/MB/VehicleTrackingApp.jpg";
-import img78 from '../assets/images/blockchain/blockcahindevelopment.jpg'
-import img79 from '../assets/images/blockchain/launchpad.png'
-import img80 from '../assets/images/blockchain/wallet.png'
-import img81 from '../assets/images/blockchain/token.jpeg'
-import img82 from '../assets/images/blockchain/defi.png'
-import img83 from '../assets/images/blockchain/nft.jpeg'
-import img84 from '../assets/images/blockchain/dex.png'
+import img41 from "../assets/images/prod/MB/advocateManagement.jpg";
+import img42 from "../assets/images/prod/MB/Affilate Managment System.jpg"
+import img43 from "../assets/images/prod/MB/AlgoTradingApp.jpg";
+import img44 from "../assets/images/prod/MB/BusBookingapp.webp";
+import img45 from "../assets/images/prod/MB/CabBooking.jpg";
+import img46 from "../assets/images/prod/MB/CattleManagerSoftware.jpg";
+import img47 from "../assets/images/prod/MB/courierSystem.jpg";
+import img48 from "../assets/images/prod/MB/crowdfunding.jpg";
+import img49 from "../assets/images/prod/MB/CryptoTradingApp.jpg";
+import img50 from "../assets/images/prod/MB/DairyFarmManager.jpg";
+import img51 from "../assets/images/prod/MB/EVchargingapp.png";
+import img52 from "../assets/images/prod/MB/eventManagement.jpg";
+import img53 from "../assets/images/prod/MB/FlightBooking.jpg";
+import img54 from "../assets/images/prod/MB/GarageWorkshopManagementSystem.jpg";
+import img55 from "../assets/images/prod/MB/Groccery.jpg";
+import img56 from "../assets/images/prod/MB/gymManagementSystem.jpg";
+import img57 from "../assets/images/prod/MB/HotelManagement.jpg";
+import img58 from "../assets/images/prod/MB/LivestockManagement.jpg";
+import img59 from "../assets/images/prod/MB/LoanManagement.jpg";
+import img60 from "../assets/images/prod/MB/LodderBooking.jpg";
+import img61 from "../assets/images/prod/MB/Logistic System.jpg";
+import img62 from "../assets/images/prod/MB/Metatrade 4-5 Trading Software.jpg";
+import img63 from "../assets/images/prod/MB/MovieTicketBooking.png";
+import img64 from "../assets/images/prod/MB/NGO Management.jpg";
+import img65 from "../assets/images/prod/MB/PropertyManagementSoftware.png";
+import img66 from "../assets/images/prod/MB/PG management.png";
+import img67 from "../assets/images/prod/MB/PropertyListingSoftware.jpg";
+import img68 from "../assets/images/prod/MB/PropertyManagementSoftware.png";
+import img69 from "../assets/images/prod/MB/RealStateSoftware.jpg";
+import img70 from "../assets/images/prod/MB/RideSharingApp.jpg";
+import img71 from "../assets/images/prod/MB/saloonManagement.png";
+import img72 from "../assets/images/prod/MB/spaManagement.jpg";
+import img73 from "../assets/images/prod/MB/SportManagmentSystem.png";
+import img74 from "../assets/images/prod/MB/TiffinCenter.jpg";
+import img75 from "../assets/images/prod/MB/TradingApp.jpg";
+import img76 from "../assets/images/prod/MB/TravelBookingApp.png";
+import img77 from "../assets/images/prod/MB/VehicleManagement.png";
+import img78 from "../assets/images/prod/MB/VehicleTrackingApp.jpg";
+import img79 from '../assets/images/blockchain/blockcahindevelopment.jpg'
+import img80 from '../assets/images/blockchain/launchpad.png'
+import img81 from '../assets/images/blockchain/wallet.png'
+import img82 from '../assets/images/blockchain/token.jpeg'
+import img83 from '../assets/images/blockchain/defi.png'
+import img84 from '../assets/images/blockchain/nft.jpeg'
+import img85 from '../assets/images/blockchain/dex.png'
 import { Link, useNavigate } from 'react-router-dom'
 import ProjectDetails from './ProjectDetails'
 
@@ -624,72 +625,69 @@ const Projects = () => {
         },
 
         {
-            id: 76,
+            id: 77,
             title: "Vehicle Management",
-            image: img76,
+            image: img77,
             category: ["SoftWare"],
             subtitle: "SoftWare"
         },
         {
-            id: 77,
+            id: 78,
             title: "Vehicle Tracking",
-            image: img77,
+            image: img78,
             category: ["Application"],
             subtitle: "Application"
         },
         {
-            id: 78,
-            category: ["Blockchain"],
-            title: 'Blockchain Development',
-            image: img78,
-            subtitle: 'Blockchain'
-          },
-
-        {
             id: 79,
             category: ["Blockchain"],
-            title: 'Launchpad Development',
+            title: 'Blockchain Development',
             image: img79,
             subtitle: 'Blockchain'
         },
+
         {
             id: 80,
             category: ["Blockchain"],
-            title: 'Wallet Development',
+            title: 'Launchpad Development',
             image: img80,
             subtitle: 'Blockchain'
         },
         {
             id: 81,
             category: ["Blockchain"],
-            title: 'Token Development',
+            title: 'Wallet Development',
             image: img81,
             subtitle: 'Blockchain'
         },
         {
             id: 82,
             category: ["Blockchain"],
-            title: 'Defi Development',
+            title: 'Token Development',
             image: img82,
             subtitle: 'Blockchain'
         },
         {
             id: 83,
             category: ["Blockchain"],
-            title: 'NFT Development',
+            title: 'Defi Development',
             image: img83,
             subtitle: 'Blockchain'
         },
         {
             id: 84,
             category: ["Blockchain"],
-            title: 'Dex Development',
+            title: 'NFT Development',
             image: img84,
             subtitle: 'Blockchain'
         },
-        
-
-
+        {
+            id: 85,
+            category: ["Blockchain"],
+            title: 'Dex Development',
+            image: img85,
+            subtitle: 'Blockchain'
+        },
 
 
     ];
